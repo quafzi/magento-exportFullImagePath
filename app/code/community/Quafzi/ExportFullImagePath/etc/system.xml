@@ -8,6 +8,12 @@
  */
 -->
 <config>
+    <tabs>
+        <exportcsv translate="label" module="exportfullpath">
+            <label>Export</label>
+            <sort_order>101</sort_order>
+        </exportcsv>
+    </tabs>
     <sections>
         <exportcsv>
             <groups>

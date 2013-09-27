@@ -1,0 +1,21 @@
+{
+    "name": "quafzi/exportfullimagepath",
+    "type": "magento-module",
+    "description": "This extension allows full image paths to be exported by Magento dataflow.",
+    "authors": [
+        {
+            "name": "Thomas Birke",
+            "email": "tbirke@netextreme.de"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "dev-master"
+    }
+}

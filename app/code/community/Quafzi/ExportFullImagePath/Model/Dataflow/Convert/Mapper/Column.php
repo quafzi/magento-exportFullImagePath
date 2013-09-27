@@ -3,7 +3,7 @@ class Quafzi_ExportFullImagePath_Model_Dataflow_Convert_Mapper_Column extends Ma
 {
     public function map()
     {
-        if (false === Mage::getStoreConfig('exportcsv/exportdownload/fullimagepath')) {
+        if (false === Mage::getStoreConfig('exportcsv/dataflow/fullimagepath')) {
             return parent::map();
         }
         $batchModel  = $this->getBatchModel();

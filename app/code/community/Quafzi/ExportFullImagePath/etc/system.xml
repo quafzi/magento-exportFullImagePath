@@ -15,16 +15,22 @@
         </exportcsv>
     </tabs>
     <sections>
-        <exportcsv>
+        <exportcsv translate="label" module="exportfullpath">
+            <label>CSV</label>
+            <tab>exportcsv</tab>
+            <sort_order>130</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
             <groups>
-                <exportdownload module="exportdownload">
-                    <label>Export Download</label>
+                <dataflow module="exportfullpath">
+                    <label>Dataflow</label>
                     <sort_order>180</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <fields>
-                        <fullimagepath translate="label comment">
+                        <fullimagepath translate="label comment" module="exportfullpath">
                             <label>Export full image urls instead of relative paths</label>
                             <frontend_type>select</frontend_type>
                             <source_model>adminhtml/system_config_source_yesno</source_model>
@@ -34,7 +40,7 @@
                             <show_in_store>1</show_in_store>
                         </fullimagepath>
                     </fields>
-                </exportdownload>
+                </dataflow>
             </groups>
         </exportcsv>
     </sections>

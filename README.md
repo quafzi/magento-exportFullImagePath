@@ -8,4 +8,4 @@ This Magento extension allows exporting full image links instead of image paths 
 
 ## configuration
 
-Activate full paths at `System`→`Configuration`→`Export`.
+Activate full paths at `System`→`Configuration`→`Export`→`CSV`→`Dataflow`.

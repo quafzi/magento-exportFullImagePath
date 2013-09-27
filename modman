@@ -1,2 +1,3 @@
 app/code/community/Quafzi/ExportFullImagePath app/code/community/Quafzi/ExportFullImagePath
 app/etc/modules/Quafzi_ExportFullImagePath.xml app/etc/modules/Quafzi_ExportFullImagePath.xml
+app/locale/de_DE/Quafzi_ExportFullImagePath.csv app/locale/de_DE/Quafzi_ExportFullImagePath.csv

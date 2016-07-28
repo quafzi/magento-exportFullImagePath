@@ -40,5 +40,24 @@
                 </Quafzi_ExportFullImagePath>
             </modules>
         </translate>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <exportcsv>
+                                            <title>Export Full Image Paths Module Section</title>
+                                        </exportcsv>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
     </adminhtml>
 </config>
